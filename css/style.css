@@ -1,0 +1,258 @@
+body {
+  max-width: 100vw;
+}
+body .container {
+   font-family: "Myriad Pro", "Arial", sans-serif;
+}
+body .container h1 {
+  font-size: 28px;
+  color: white;
+  line-height: 1.071;
+  text-align: center;
+  padding: 78px 10px 32px 10px;
+}
+body .container h2 {
+  font-size: 28px;
+  padding: 78px 10px 32px 10px;
+}
+body .container h3 {
+  font-size: 13px;
+  padding: 40px 10px 0px 10px;
+  color: #00a1d4;
+}
+body .container h4 {
+  font-size: 11px;
+  line-height: 1.364;
+  padding: 0px 10px 0px 10px;
+}
+body .container p {
+  font-size: 16px;
+  line-height: 1.563;
+  padding: 0px 10px 0px 10px;
+}
+body .container span {
+  color: #00a1d4;
+}
+body .container button {
+  border-radius: 25px;
+  background-color: #00a1d4;
+  width: 280px;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 35px 0px 40px 0px;
+  border: none;
+}
+body .container label {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+header {
+  position: relative;
+  max-width: 100vw;
+  min-height: 600px;
+  background-image: url(../img/lt_sijoitusrahastot_mainimg_170110.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -256px;
+}
+header img.logo {
+  margin-top: 0px;
+  top: 10px;
+}
+header .header-title {
+  bottom: 140px;
+  margin-left: -102px;
+}
+header .text {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  bottom: 0;
+  margin: 0px;
+}
+header .text h1 {
+  font-family: "Myriad Pro", "Arial", sans-serif;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
+header .text h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+section.content {
+  background: #003665;
+  background-image: url(../img/lt_bg_money_1600x720.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+}
+section.content ul.list li {
+  list-style: circle;
+}
+section.content2 {
+  text-align: center;
+  color: #003665;
+}
+section.form {
+  text-align: center;
+  color: #003665;
+  background: #f2f5f7;
+  padding-bottom: 100px;
+}
+section.form div.form {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+section.form div.form label {
+  font-size: 14px;
+  font-family: "Myriad Pro", "Arial", sans-serif;
+  color: #003665;
+  text-transform: uppercase;
+  line-height: 1.429;
+  text-align: left;
+  padding: 9px 0px 9px 0px;
+}
+section.form div.form input[type=text] {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d6d6d6;
+  border-radius: 3px;
+  background-color: white;
+  width: 242px;
+  height: 52px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  color: #003665;
+  line-height: 1;
+  text-align: left;
+}
+section.form div.form textarea {
+  font-size: 14px;
+  font-family: "Myriad Pro", "Arial", sans-serif;
+  color: #003665;
+  line-height: 1;
+  text-align: left;
+}
+section.form div.form input[type=checkbox] {
+  display: inline-block;
+  float: left;
+}
+section.form div.form input[type="checkbox"] {
+  /* change "blue" browser chrome to yellow */
+  filter: sepia(100%) saturate(250%) contrast(400%) invert(100%);
+}
+section.form div.form .right {
+  display: flex;
+  flex-direction: column;
+}
+section.form div.form .right .checkbox {
+  padding: 9px 0px 9px 0px;
+}
+section.form div.form .right .checkbox label[for=checkb] {
+  display: inline-block;
+  text-transform: none;
+  padding: 0;
+  width: auto;
+  left: 0;
+}
+section.form div.form .left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+footer {
+  box-sizing: border-box;
+  padding-top: 30px;
+  text-align: center;
+  background: #003665;
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  align-items: flex-start;
+}
+footer img {
+  padding-right: 50px;
+}
+footer ul li {
+  line-height: 32px;
+  list-style: none;
+  display: inline-block;
+  padding-right: 14px;
+  color: white;
+}
+footer div.footer {
+  display: flex;
+}
+footer .logofooter {
+  padding-left: 20px;
+}
+@media screen and (max-width: 550px) {
+  header .text h1 {
+    font-size: 40px;
+  }
+  header .text h2 {
+    font-size: 20px;
+  }
+  header img {
+    left: 0;
+    margin-left: 0;
+    width: 95%;
+    padding-left: 10px;
+  }
+  header img.logo {
+    width: auto;
+  }
+  img.header-title {
+    width: auto;
+    margin-left: -102px;
+    left: 50%;
+  }
+  div.form {
+    text-align: left;
+    margin-left: 8px;
+    flex-direction: column;
+  }
+  div.form label,
+  div.form textarea {
+    width: 90vw;
+  }
+  div.form div.left input[type=text],
+  div.form div.right input[type=text] {
+    width: 90vw;
+  }
+  div.footer {
+    display: flex;
+    flex-direction: column;
+  }
+  div.footer div.logofooter {
+    flex: 1;
+  }
+  div.footer div.listfooter {
+    flex: 1;
+  }
+}
